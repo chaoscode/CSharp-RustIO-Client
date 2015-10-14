@@ -27,3 +27,11 @@ C:\Users\Chris Powell\Documents\Visual Studio 2013\Projects\RustIO-Client\Window
 C:\Users\Chris Powell\Documents\Visual Studio 2013\Projects\RustIO-Client\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.csproj.GenerateResource.Cache
 C:\Users\Chris Powell\Documents\Visual Studio 2013\Projects\RustIO-Client\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.exe
 C:\Users\Chris Powell\Documents\Visual Studio 2013\Projects\RustIO-Client\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.pdb
+C:\Users\Chris Powell\Desktop\RUST-IO-SHARP-CLIENT\trunk\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe.config
+C:\Users\Chris Powell\Desktop\RUST-IO-SHARP-CLIENT\trunk\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.exe
+C:\Users\Chris Powell\Desktop\RUST-IO-SHARP-CLIENT\trunk\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.pdb
+C:\Users\Chris Powell\Desktop\RUST-IO-SHARP-CLIENT\trunk\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.csproj.App.config
+C:\Users\Chris Powell\Desktop\RUST-IO-SHARP-CLIENT\trunk\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.csprojResolveAssemblyReference.cache
+C:\Users\Chris Powell\Desktop\RUST-IO-SHARP-CLIENT\trunk\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Form1.resources
+C:\Users\Chris Powell\Desktop\RUST-IO-SHARP-CLIENT\trunk\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Properties.Resources.resources
+C:\Users\Chris Powell\Desktop\RUST-IO-SHARP-CLIENT\trunk\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.csproj.GenerateResource.Cache

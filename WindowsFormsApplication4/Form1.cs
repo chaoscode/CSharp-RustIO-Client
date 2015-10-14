@@ -127,6 +127,23 @@ namespace WindowsFormsApplication4
             isRunning = false;
         }
 
+        public void OnMachineAuth(SteamUser.UpdateMachineAuthCallback callback)
+        {
+            this.SetText("Updating sentry file..");
+            byte[] sentryHash = CryptoHelper.SHAHash(callback.Data);
+            File.WriteAllBytes("sentry.bin", callback.Data);
+            user.SendMachineAuthResponse(new SteamUser.MachineAuthDetails { 
+                JobID = callback.JodID,
+                FileName = callback.FileName,
+                BytesWritten = callback.BytesToWrite,
+                FileSize = callback.Data.Length,
+                Offset = callback.Offset,
+                Result = EResult.OK,
+                OneTimePassword = callback.OneTimePassword,
+                SentryFileHash = sentryHash,
+            });
+            this.SetText("Done.");
+        }
         public async Task Connect(string uri)
         {
 
@@ -143,6 +160,8 @@ namespace WindowsFormsApplication4
             new Callback<SteamUser.LoggedOnCallback>(OnLoggedOn, manager);
 
             new Callback<SteamClient.DisconnectedCallback>(OnDisconnected, manager);
+            
+            new Callback<SteamUser.UpdateMachineAuthCallback>(OnMachineAuth, manager);
 
             client.Connect();
 
